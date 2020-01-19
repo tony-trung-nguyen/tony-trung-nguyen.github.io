@@ -1,645 +1,494 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en">
-<head>
-
-    <!--- basic page needs
-    ================================================== -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Colorlib Balita &mdash; Minimal Blog Template</title>
     <meta charset="utf-8">
-    <title>Category - Wordsmith</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- mobile specific metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300, 400,700" rel="stylesheet">
 
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
 
-    <!-- script
-    ================================================== -->
-    <script src="js/modernizr.js"></script>
+    <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
 
-    <!-- favicons
-    ================================================== -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-
-</head>
-
-<body id="top">
-
-    <!-- preloader
-    ================================================== -->
-    <div id="preloader">
-        <div id="loader" class="dots-fade">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    
 
 
-    <!-- header
-    ================================================== -->
-    <header class="s-header header">
-
-        <div class="header__logo">
-            <a class="logo" href="index.html">
-                <img src="images/logo.svg" alt="Homepage">
-            </a>
-        </div> <!-- end header__logo -->
-
-        <a class="header__search-trigger" href="#0"></a>
-        <div class="header__search">
-
-            <form role="search" method="get" class="header__search-form" action="#">
-                <label>
-                    <span class="hide-content">Search for:</span>
-                    <input type="search" class="search-field" placeholder="Type Keywords" value="" name="s" title="Search for:" autocomplete="off">
-                </label>
-                <input type="submit" class="search-submit" value="Search">
-            </form>
-
-            <a href="#0" title="Close Search" class="header__overlay-close">Close</a>
-
-        </div>  <!-- end header__search -->
-
-        <a class="header__toggle-menu" href="#0" title="Menu"><span>Menu</span></a>
-        <nav class="header__nav-wrap">
-
-            <h2 class="header__nav-heading h6">Navigate to</h2>
-
-            <ul class="header__nav">
-                <li><a href="index.html" title="">Home</a></li>
-                <li class="has-children current">
-                    <a href="#0" title="">Categories</a>
-                    <ul class="sub-menu">
-                        <li><a href="category.html">Lifestyle</a></li>
-                        <li><a href="category.html">Health</a></li>
-                        <li><a href="category.html">Family</a></li>
-                        <li><a href="category.html">Management</a></li>
-                        <li><a href="category.html">Travel</a></li>
-                        <li><a href="category.html">Work</a></li>
-                    </ul>
-                </li>
-                <li class="has-children">
-                    <a href="#0" title="">Blog</a>
-                    <ul class="sub-menu">
-                        <li><a href="single-video.html">Video Post</a></li>
-                        <li><a href="single-audio.html">Audio Post</a></li>
-                        <li><a href="single-standard.html">Standard Post</a></li>
-                    </ul>
-                </li>
-                <li><a href="style-guide.html" title="">Styles</a></li>
-                <li><a href="page-about.html" title="">About</a></li>
-                <li><a href="page-contact.html" title="">Contact</a></li>
-            </ul> <!-- end header__nav -->
-
-            <a href="#0" title="Close Menu" class="header__overlay-close close-mobile-menu">Close</a>
-
-        </nav> <!-- end header__nav-wrap -->
-
-    </header> <!-- s-header -->
-
-
-    <!-- s-content
-    ================================================== -->
-    <section class="s-content s-content--top-padding">
-
-        <div class="row narrow">
-            <div class="col-full s-content__header" data-aos="fade-up">
-                <h1 class="display-1 display-1--with-line-sep">Category: Lifestyle</h1>
-                <p class="lead">Dolor similique vitae. Exercitationem quidem occaecati iusto. Id non vitae enim quas error dolor maiores ut. Exercitationem earum ut repudiandae optio veritatis animi nulla qui dolores.</p>
+    <header role="banner">
+      <div class="top-bar">
+        <div class="container">
+          <div class="row">
+            <div class="col-9 social">
+              <a href="#"><span class="fa fa-twitter"></span></a>
+              <a href="#"><span class="fa fa-facebook"></span></a>
+              <a href="#"><span class="fa fa-instagram"></span></a>
+              <a href="#"><span class="fa fa-youtube-play"></span></a>
+              <a href="#"><span class="fa fa-vimeo"></span></a>
+              <a href="#"><span class="fa fa-snapchat"></span></a>
             </div>
+            <div class="col-3 search-top">
+              <!-- <a href="#"><span class="fa fa-search"></span></a> -->
+              <form action="#" class="search-top-form">
+                <span class="icon fa fa-search"></span>
+                <input type="text" id="s" placeholder="Type keyword to search...">
+              </form>
+            </div>
+          </div>
         </div>
-        
-        <div class="row entries-wrap add-top-padding wide">
-            <div class="entries">
+      </div>
 
-                <article class="col-block">
-                    
-                    <div class="item-entry" data-aos="zoom-in">
-                        <div class="item-entry__thumb">
-                            <a href="single-standard.html" class="item-entry__thumb-link">
-                                <img src="images/thumbs/post/lamp-400.jpg" 
-                                        srcset="images/thumbs/post/lamp-400.jpg 1x, images/thumbs/post/lamp-800.jpg 2x" alt="">
-                            </a>
-                        </div>
-        
-                        <div class="item-entry__text">
-                            <div class="item-entry__cat">
-                                <a href="category.html">Design</a> 
-                            </div>
-    
-                            <h1 class="item-entry__title"><a href="single-standard.html">3 Benefits of Minimalism In Interior Design.</a></h1>
-                                
-                            <div class="item-entry__date">
-                                <a href="single-standard.html">June 15, 2018</a>
-                            </div>
-                        </div>
-                    </div> <!-- item-entry -->
+      <div class="container logo-wrap">
+        <div class="row pt-5">
+          <div class="col-12 text-center">
+            <a class="absolute-toggle d-block d-md-none" data-toggle="collapse" href="#navbarMenu" role="button" aria-expanded="false" aria-controls="navbarMenu"><span class="burger-lines"></span></a>
+            <h1 class="site-logo"><a href="index.html">Balita</a></h1>
+          </div>
+        </div>
+      </div>
+      
+      <nav class="navbar navbar-expand-md  navbar-light bg-light">
+        <div class="container">
+          
+         
+          <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="category.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Travel</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown04">
+                  <a class="dropdown-item" href="category.html">Asia</a>
+                  <a class="dropdown-item" href="category.html">Europe</a>
+                  <a class="dropdown-item" href="category.html">Dubai</a>
+                  <a class="dropdown-item" href="category.html">Africa</a>
+                  <a class="dropdown-item" href="category.html">South America</a>
+                </div>
 
-                </article> <!-- end article -->
+              </li>
 
-                <article class="col-block">
-                    
-                    <div class="item-entry" data-aos="zoom-in">
-                        <div class="item-entry__thumb">
-                            <a href="single-standard.html" class="item-entry__thumb-link">
-                                <img src="images/thumbs/post/tulips-400.jpg" 
-                                        srcset="images/thumbs/post/tulips-400.jpg 1x, images/thumbs/post/tulips-800.jpg 2x" alt="">
-                            </a>
-                        </div>
-        
-                        <div class="item-entry__text">
-                            <div class="item-entry__cat">
-                                <a href="category.html">Health</a>
-                            </div>
-    
-                            <h1 class="item-entry__title"><a href="single-standard.html">10 Interesting Facts About Caffeine.</a></h1>
-                                
-                            <div class="item-entry__date">
-                                <a href="single-standard.html">June 14, 2018</a>
-                            </div>
-                        </div>
-                    </div> <!-- item-entry -->
-    
-                </article> <!-- end article -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="category.html" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categories</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown05">
+                  <a class="dropdown-item" href="category.html">Lifestyle</a>
+                  <a class="dropdown-item" href="category.html">Food</a>
+                  <a class="dropdown-item" href="category.html">Adventure</a>
+                  <a class="dropdown-item" href="category.html">Travel</a>
+                  <a class="dropdown-item" href="category.html">Business</a>
+                </div>
 
-                <article class="col-block">
-                    
-                    <div class="item-entry" data-aos="zoom-in">
-                        <div class="item-entry__thumb">
-                            <a href="single-standard.html" class="item-entry__thumb-link">
-                                <img src="images/thumbs/post/music-400.jpg" 
-                                        srcset="images/thumbs/post/music-400.jpg 1x, images/thumbs/post/music-800.jpg 2x" alt="">
-                            </a>
-                        </div>
-        
-                        <div class="item-entry__text">
-                            <div class="item-entry__cat">
-                                <a href="category.html">Health</a>
-                            </div>
-    
-                            <h1 class="item-entry__title"><a href="single-standard.html">The Power of Music to Reduce Stress.</a></h1>
-                                
-                            <div class="item-entry__date">
-                                <a href="single-standard.html">June 14, 2018</a>
-                            </div>
-                        </div>
-                    </div> <!-- item-entry -->
-    
-                </article> <!-- end article -->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div
+      </nav>
+    </header>
+    <!-- END header -->
 
-                <article class="col-block">
-                
-                    <div class="item-entry" data-aos="zoom-in">
-                        <div class="item-entry__thumb">
-                            <a href="single-standard.html" class="item-entry__thumb-link">
-                                <img src="images/thumbs/post/watch-400.jpg" 
-                                        srcset="images/thumbs/post/watch-400.jpg 1x, images/thumbs/post/watch-800.jpg 2x" alt="">
-                            </a>
-                        </div>
-        
-                        <div class="item-entry__text">
-                            <div class="item-entry__cat">
-                                <a href="category.html">Management</a>
-                            </div>
-    
-                            <h1 class="item-entry__title"><a href="single-standard.html">The Pomodoro Technique Really Works.</a></h1>
-                                
-                            <div class="item-entry__date">
-                                <a href="single-standard.html">June 12, 2018</a>
-                            </div>
-                        </div>
-                    </div> <!-- item-entry -->
 
-                </article> <!-- end article -->
+    <section class="site-section">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-md-6">
+            <h2 class="mb-4">Category: Food</h2>
+          </div>
+        </div>
+        <div class="row blog-entries">
+          <div class="col-md-12 col-lg-8 main-content">
+            <div class="row mb-5 mt-5">
 
-                <article class="col-block">
-                
-                    <div class="item-entry" data-aos="zoom-in">
-                        <div class="item-entry__thumb">
-                            <a href="single-standard.html" class="item-entry__thumb-link">
-                                <img src="images/thumbs/post/wheel-400.jpg" 
-                                        srcset="images/thumbs/post/wheel-400.jpg 1x, images/thumbs/post/wheel-800.jpg 2x" alt="">
-                            </a>
-                        </div>
-        
-                        <div class="item-entry__text">
-                            <div class="item-entry__cat">
-                                <a href="category.html">Lifestyle</a>
-                            </div>
-    
-                            <h1 class="item-entry__title"><a href="single-standard.html">Visiting Theme Parks Improves Your Health.</a></h1>
-                                
-                            <div class="item-entry__date">
-                                <a href="single-standard.html">June 12, 2017</a>
-                            </div>
-                        </div>
-                    </div> <!-- item-entry -->
-    
-                </article> <!-- end article -->
+              <div class="col-md-12">
 
-                <article class="col-block">
-                
-                    <div class="item-entry" data-aos="zoom-in">
-                        <div class="item-entry__thumb">
-                            <a href="single-standard.html" class="item-entry__thumb-link">
-                                <img src="images/thumbs/post/guitarist-400.jpg" 
-                                        srcset="images/thumbs/post/guitarist-400.jpg 1x, images/thumbs/post/guitarist-800.jpg 2x" alt="">
-                            </a>
-                        </div>
-        
-                        <div class="item-entry__text">
-                            <div class="item-entry__cat">
-                                <a href="category.html">Music</a>
-                            </div>
-    
-                            <h1 class="item-entry__title"><a href="single-standard.html">What Your Music Preference Says About You and Your Personality.</a></h1>
-                                
-                            <div class="item-entry__date">
-                                <a href="single-standard.html">June 02, 2018</a>
-                            </div>
-                        </div>
-                    </div> <!-- item-entry -->
-    
-                </article> <!-- end article -->
+                <div class="post-entry-horzontal">
+                  <a href="#">
+                    <div class="image element-animate" data-animate-effect="fadeIn" style="background-image: url(images/img_10.jpg);"></div>
+                    <span class="text">
+                      <div class="post-meta">
+                        <span class="category">Travel</span>
+                        <span class="mr-2">March 15, 2018 </span> &bullet;
+                        <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+                      </div>
+                      <h2>There’s a Cool New Way for Men to Wear Socks and Sandals</h2>
+                    </span>
+                  </a>
+                </div>
+                <!-- END post -->
 
-                <article class="col-block">
-                
-                    <div class="item-entry" data-aos="zoom-in">
-                        <div class="item-entry__thumb">
-                            <a href="single-standard.html" class="item-entry__thumb-link">
-                                <img src="images/thumbs/post/jump-400.jpg" 
-                                        srcset="images/thumbs/post/jump-400.jpg 1x, images/thumbs/post/jump-800.jpg 2x" alt="">
-                            </a>
-                        </div>
-        
-                        <div class="item-entry__text">
-                            <div class="item-entry__cat">
-                                <a href="category.html">Relationships</a> 
-                            </div>
-    
-                            <h1 class="item-entry__title"><a href="single-standard.html">Create Meaningful Family Moments.</a></h1>
-                                
-                            <div class="item-entry__date">
-                                <a href="single-standard.html">June 02, 2018</a>
-                            </div>
-                        </div>
-                    </div> <!-- item-entry -->
-    
-                </article> <!-- end article -->
+                <div class="post-entry-horzontal">
+                  <a href="#">
+                    <div class="image element-animate" data-animate-effect="fadeIn" style="background-image: url(images/img_11.jpg);"></div>
+                    <span class="text">
+                      <div class="post-meta">
+                        <span class="category">Lifestyle</span>
+                        <span class="mr-2">March 15, 2018 </span> &bullet;
+                        <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+                      </div>
+                      <h2>There’s a Cool New Way for Men to Wear Socks and Sandals</h2>
+                    </span>
+                  </a>
+                </div>
+                <!-- END post -->
 
-                <article class="col-block">
-                
-                    <div class="item-entry" data-aos="zoom-in">
-                        <div class="item-entry__thumb">
-                            <a href="single-standard.html" class="item-entry__thumb-link">
-                                <img src="images/thumbs/post/flowers-400.jpg" 
-                                        srcset="images/thumbs/post/flowers-400.jpg 1x, images/thumbs/post/flowers-800.jpg 2x" alt="">
-                            </a>
-                        </div>
-        
-                        <div class="item-entry__text">
-                            <div class="item-entry__cat">
-                                <a href="category.html">Lifestyle</a>
-                            </div>
-    
-                            <h1 class="item-entry__title"><a href="single-standard.html">Gardening: The Secret to Happiness.</a></h1>
-                                
-                            <div class="item-entry__date">
-                                <a href="single-standard.html">June 01, 2018</a>
-                            </div>
-                        </div>
-                    </div> <!-- item-entry -->
-    
-                </article> <!-- end article -->
+                <div class="post-entry-horzontal">
+                  <a href="#">
+                    <div class="image element-animate" data-animate-effect="fadeIn" style="background-image: url(images/img_12.jpg);"></div>
+                    <span class="text">
+                      <div class="post-meta">
+                        <span class="category">Food</span>
+                        <span class="mr-2">March 15, 2018 </span> &bullet;
+                        <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+                      </div>
+                      <h2>There’s a Cool New Way for Men to Wear Socks and Sandals</h2>
+                    </span>
+                  </a>
+                </div>
+                <!-- END post -->
 
-                <article class="col-block">
-                
-                    <div class="item-entry" data-aos="zoom-in">
-                        <div class="item-entry__thumb">
-                            <a href="single-standard.html" class="item-entry__thumb-link">
-                                <img src="images/thumbs/post/woodcraft-400.jpg" 
-                                        srcset="images/thumbs/post/woodcraft-400.jpg 1x, images/thumbs/post/woodcraft-800.jpg 2x" alt="">
-                            </a>
-                        </div>
-        
-                        <div class="item-entry__text">
-                            <div class="item-entry__cat">
-                                <a href="category.html">Creativity</a>
-                            </div>
-    
-                            <h1 class="item-entry__title"><a href="single-standard.html">An Examination of Minimalistic Design.</a></h1>
-                                
-                            <div class="item-entry__date">
-                                <a href="single-standard.html">May 30, 2018</a>
-                            </div>
-                        </div>
-                    </div> <!-- item-entry -->
-    
-                </article> <!-- end article -->
+                <div class="post-entry-horzontal">
+                  <a href="#">
+                    <div class="image element-animate" data-animate-effect="fadeIn" style="background-image: url(images/img_9.jpg);"></div>
+                    <span class="text">
+                      <div class="post-meta">
+                        <span class="category">Travel</span>
+                        <span class="mr-2">March 15, 2018 </span> &bullet;
+                        <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+                      </div>
+                      <h2>There’s a Cool New Way for Men to Wear Socks and Sandals</h2>
+                    </span>
+                  </a>
+                </div>
+                <!-- END post -->
 
-                <article class="col-block">
-                
-                    <div class="item-entry" data-aos="zoom-in">
-                        <div class="item-entry__thumb">
-                            <a href="single-standard.html" class="item-entry__thumb-link">
-                                <img src="images/thumbs/post/fuji-400.jpg" 
-                                        srcset="images/thumbs/post/fuji-400.jpg 1x, images/thumbs/post/fuji-800.jpg 2x" alt="">
-                            </a>
-                        </div>
-        
-                        <div class="item-entry__text">
-                            <div class="item-entry__cat">
-                                <a href="category.html">Creativity</a>
-                            </div>
-    
-                            <h1 class="item-entry__title"><a href="single-standard.html">What Skills Are Required For a Photographer?</a></h1>
-                                
-                            <div class="item-entry__date">
-                                <a href="single-standard.html">May 30, 2018</a>
-                            </div>
-                        </div>
-                    </div> <!-- item-entry -->
-    
-                </article> <!-- end article -->
+                <div class="post-entry-horzontal">
+                  <a href="#">
+                    <div class="image element-animate" data-animate-effect="fadeIn" style="background-image: url(images/img_8.jpg);"></div>
+                    <span class="text">
+                      <div class="post-meta">
+                        <span class="category">Lifestyle</span>
+                        <span class="mr-2">March 15, 2018 </span> &bullet;
+                        <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+                      </div>
+                      <h2>There’s a Cool New Way for Men to Wear Socks and Sandals</h2>
+                    </span>
+                  </a>
+                </div>
+                <!-- END post -->
 
-                <article class="col-block">
-                
-                    <div class="item-entry" data-aos="zoom-in">
-                        <div class="item-entry__thumb">
-                            <a href="single-standard.html" class="item-entry__thumb-link">
-                                <img src="images/thumbs/post/beetle-400.jpg" 
-                                        srcset="images/thumbs/post/beetle-400.jpg 1x, images/thumbs/post/beetle-800.jpg 2x" alt="">
-                            </a>
-                        </div>
-        
-                        <div class="item-entry__text">
-                            <div class="item-entry__cat">
-                                <a href="category.html">Lifestyle</a>
-                            </div>
-    
-                            <h1 class="item-entry__title"><a href="single-standard.html">Throwback To The Good Old Days.</a></h1>
-                                
-                            <div class="item-entry__date">
-                                <a href="single-standard.html">May 28, 2018</a>
-                            </div>
-                        </div>
-                    </div> <!-- item-entry -->
-    
-                </article> <!-- end article -->
+                <div class="post-entry-horzontal">
+                  <a href="#">
+                    <div class="image element-animate" data-animate-effect="fadeIn" style="background-image: url(images/img_7.jpg);"></div>
+                    <span class="text">
+                      <div class="post-meta">
+                        <span class="category">Food</span>
+                        <span class="mr-2">March 15, 2018 </span> &bullet;
+                        <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+                      </div>
+                      <h2>There’s a Cool New Way for Men to Wear Socks and Sandals</h2>
+                    </span>
+                  </a>
+                </div>
+                <!-- END post -->
 
-                <article class="col-block">
-                
-                    <div class="item-entry" data-aos="zoom-in">
-                        <div class="item-entry__thumb">
-                            <a href="single-standard.html" class="item-entry__thumb-link">
-                                <img src="images/thumbs/post/sydney-400.jpg" 
-                                        srcset="images/thumbs/post/sydney-400.jpg 1x, images/thumbs/post/sydney-800.jpg 2x" alt="">
-                            </a>
-                        </div>
-        
-                        <div class="item-entry__text">
-                            <div class="item-entry__cat">
-                                <a href="category.html">Travel</a> 
-                            </div>
-    
-                            <h1 class="item-entry__title"><a href="single-standard.html">Planning Your First Trip To Sydney.</a></h1>
-                                
-                            <div class="item-entry__date">
-                                <a href="single-standard.html">May 28, 2018</a>
-                            </div>
-                        </div>
-                    </div> <!-- item-entry -->
-    
-                </article> <!-- end article -->
+                <div class="post-entry-horzontal">
+                  <a href="#">
+                    <div class="image element-animate" data-animate-effect="fadeIn" style="background-image: url(images/img_6.jpg);"></div>
+                    <span class="text">
+                      <div class="post-meta">
+                        <span class="category">Travel</span>
+                        <span class="mr-2">March 15, 2018 </span> &bullet;
+                        <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+                      </div>
+                      <h2>There’s a Cool New Way for Men to Wear Socks and Sandals</h2>
+                    </span>
+                  </a>
+                </div>
+                <!-- END post -->
 
-            </div> <!-- end entries -->
-        </div> <!-- end entries-wrap -->
+                <div class="post-entry-horzontal">
+                  <a href="#">
+                    <div class="image element-animate" data-animate-effect="fadeIn" style="background-image: url(images/img_5.jpg);"></div>
+                    <span class="text">
+                      <div class="post-meta">
+                        <span class="category">Lifestyle</span>
+                        <span class="mr-2">March 15, 2018 </span> &bullet;
+                        <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+                      </div>
+                      <h2>There’s a Cool New Way for Men to Wear Socks and Sandals</h2>
+                    </span>
+                  </a>
+                </div>
+                <!-- END post -->
 
-        <div class="row pagination-wrap">
-            <div class="col-full">
-                <nav class="pgn" data-aos="fade-up">
-                    <ul>
-                        <li><a class="pgn__prev" href="#0">Prev</a></li>
-                        <li><a class="pgn__num" href="#0">1</a></li>
-                        <li><span class="pgn__num current">2</span></li>
-                        <li><a class="pgn__num" href="#0">3</a></li>
-                        <li><a class="pgn__num" href="#0">4</a></li>
-                        <li><a class="pgn__num" href="#0">5</a></li>
-                        <li><span class="pgn__num dots">…</span></li>
-                        <li><a class="pgn__num" href="#0">8</a></li>
-                        <li><a class="pgn__next" href="#0">Next</a></li>
-                    </ul>
+                <div class="post-entry-horzontal">
+                  <a href="#">
+                    <div class="image element-animate" data-animate-effect="fadeIn" style="background-image: url(images/img_4.jpg);"></div>
+                    <span class="text">
+                      <div class="post-meta">
+                        <span class="category">Food</span>
+                        <span class="mr-2">March 15, 2018 </span> &bullet;
+                        <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+                      </div>
+                      <h2>There’s a Cool New Way for Men to Wear Socks and Sandals</h2>
+                    </span>
+                  </a>
+                </div>
+                <!-- END post -->
+
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <nav aria-label="Page navigation" class="text-center">
+                  <ul class="pagination">
+                    <li class="page-item  active"><a class="page-link" href="#">Prev</a></li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                  </ul>
                 </nav>
+              </div>
             </div>
+
+            
+
+          </div>
+
+          <!-- END main-content -->
+
+          <div class="col-md-12 col-lg-4 sidebar">
+            <div class="sidebar-box search-form-wrap">
+              <form action="#" class="search-form">
+                <div class="form-group">
+                  <span class="icon fa fa-search"></span>
+                  <input type="text" class="form-control" id="s" placeholder="Type a keyword and hit enter">
+                </div>
+              </form>
+            </div>
+            <!-- END sidebar-box -->
+            <div class="sidebar-box">
+              <div class="bio text-center">
+                <img src="images/person_1.jpg" alt="Image Placeholder" class="img-fluid">
+                <div class="bio-body">
+                  <h2>Meagan Smith</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem facilis sunt repellendus excepturi beatae porro debitis voluptate nulla quo veniam fuga sit molestias minus.</p>
+                  <p><a href="#" class="btn btn-primary btn-sm">Read my bio</a></p>
+                  <p class="social">
+                    <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
+                    <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
+                    <a href="#" class="p-2"><span class="fa fa-instagram"></span></a>
+                    <a href="#" class="p-2"><span class="fa fa-youtube-play"></span></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- END sidebar-box -->  
+            <div class="sidebar-box">
+              <h3 class="heading">Popular Posts</h3>
+              <div class="post-entry-sidebar">
+                <ul>
+                  <li>
+                    <a href="">
+                      <img src="images/img_2.jpg" alt="Image placeholder" class="mr-4">
+                      <div class="text">
+                        <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
+                        <div class="post-meta">
+                          <span class="mr-2">March 15, 2018 </span> &bullet;
+                          <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <img src="images/img_4.jpg" alt="Image placeholder" class="mr-4">
+                      <div class="text">
+                        <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
+                        <div class="post-meta">
+                          <span class="mr-2">March 15, 2018 </span> &bullet;
+                          <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <img src="images/img_12.jpg" alt="Image placeholder" class="mr-4">
+                      <div class="text">
+                        <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
+                        <div class="post-meta">
+                          <span class="mr-2">March 15, 2018 </span> &bullet;
+                          <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- END sidebar-box -->
+
+            <div class="sidebar-box">
+              <h3 class="heading">Categories</h3>
+              <ul class="categories">
+                <li><a href="#">Courses <span>(12)</span></a></li>
+                <li><a href="#">News <span>(22)</span></a></li>
+                <li><a href="#">Design <span>(37)</span></a></li>
+                <li><a href="#">HTML <span>(42)</span></a></li>
+                <li><a href="#">Web Development <span>(14)</span></a></li>
+              </ul>
+            </div>
+            <!-- END sidebar-box -->
+
+            <div class="sidebar-box">
+              <h3 class="heading">Tags</h3>
+              <ul class="tags">
+                <li><a href="#">Travel</a></li>
+                <li><a href="#">Adventure</a></li>
+                <li><a href="#">Food</a></li>
+                <li><a href="#">Lifestyle</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Freelancing</a></li>
+                <li><a href="#">Travel</a></li>
+                <li><a href="#">Adventure</a></li>
+                <li><a href="#">Food</a></li>
+                <li><a href="#">Lifestyle</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Freelancing</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- END sidebar -->
+
         </div>
+      </div>
+    </section>
+  
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-4">
+            <h3>Paragraph</h3>
+            <p>
+              <img src="images/img_1.jpg" alt="Image placeholder" class="img-fluid">
+            </p>
 
-    </section> <!-- end s-content -->
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, accusantium optio unde perferendis eum illum voluptatibus dolore tempora, consequatur minus asperiores temporibus reprehenderit.</p>
+          </div>
+          <div class="col-md-6 ml-auto">
+            <div class="row">
+              <div class="col-md-7">
+                <h3>Latest Post</h3>
+                <div class="post-entry-sidebar">
+                <ul>
+                    <li>
+                      <a href="">
+                        <img src="images/img_6.jpg" alt="Image placeholder" class="mr-4">
+                        <div class="text">
+                          <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
+                          <div class="post-meta">
+                            <span class="mr-2">March 15, 2018 </span> &bullet;
+                            <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <img src="images/img_3.jpg" alt="Image placeholder" class="mr-4">
+                        <div class="text">
+                          <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
+                          <div class="post-meta">
+                            <span class="mr-2">March 15, 2018 </span> &bullet;
+                            <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <img src="images/img_4.jpg" alt="Image placeholder" class="mr-4">
+                        <div class="text">
+                          <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
+                          <div class="post-meta">
+                            <span class="mr-2">March 15, 2018 </span> &bullet;
+                            <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+              </div>
+              </div>
+              <div class="col-md-1"></div>
+              
+              <div class="col-md-4">
 
-
-    <!-- s-extra
-    ================================================== -->
-    <section class="s-extra">
-
+                <div class="mb-5">
+                  <h3>Quick Links</h3>
+                  <ul class="list-unstyled">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Travel</a></li>
+                    <li><a href="#">Adventure</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Categories</a></li>
+                  </ul>
+                </div>
+                
+                <div class="mb-5">
+                  <h3>Social</h3>
+                  <ul class="list-unstyled footer-social">
+                    <li><a href="#"><span class="fa fa-twitter"></span> Twitter</a></li>
+                    <li><a href="#"><span class="fa fa-facebook"></span> Facebook</a></li>
+                    <li><a href="#"><span class="fa fa-instagram"></span> Instagram</a></li>
+                    <li><a href="#"><span class="fa fa-vimeo"></span> Vimeo</a></li>
+                    <li><a href="#"><span class="fa fa-youtube-play"></span> Youtube</a></li>
+                    <li><a href="#"><span class="fa fa-snapchat"></span> Snapshot</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="row">
-
-            <div class="col-seven md-six tab-full popular">
-                <h3>Popular Posts</h3>
-
-                <div class="block-1-2 block-m-full popular__posts">
-                    <article class="col-block popular__post">
-                        <a href="#0" class="popular__thumb">
-                            <img src="images/thumbs/small/tulips-150.jpg" alt="">
-                        </a>
-                        <h5>10 Interesting Facts About Caffeine.</h5>
-                        <section class="popular__meta">
-                            <span class="popular__author"><span>By</span> <a href="#0">John Doe</a></span>
-                            <span class="popular__date"><span>on</span> <time datetime="2018-06-14">Jun 14, 2018</time></span>
-                        </section>
-                    </article>
-                    <article class="col-block popular__post">
-                        <a href="#0" class="popular__thumb">
-                            <img src="images/thumbs/small/wheel-150.jpg" alt="">
-                        </a>
-                        <h5><a href="#0">Visiting Theme Parks Improves Your Health.</a></h5>
-                        <section class="popular__meta">
-                            <span class="popular__author"><span>By</span> <a href="#0">John Doe</a></span>
-                            <span class="popular__date"><span>on</span> <time datetime="2018-06-12">Jun 12, 2018</time></span>
-                        </section>
-                    </article>
-                    <article class="col-block popular__post">
-                        <a href="#0" class="popular__thumb">
-                            <img src="images/thumbs/small/shutterbug-150.jpg" alt="">
-                        </a>
-                        <h5><a href="#0">Key Benefits Of Family Photography.</a></h5>
-                        <section class="popular__meta">
-                            <span class="popular__author"><span>By</span> <a href="#0">John Doe</a></span>
-                            <span class="popular__date"><span>on</span> <time datetime="2018-06-12">Jun 12, 2018</time></span>
-                        </section>
-                    </article>
-                    <article class="col-block popular__post">
-                        <a href="#0" class="popular__thumb">
-                            <img src="images/thumbs/small/cookies-150.jpg" alt="">
-                        </a>
-                        <h5><a href="#0">Absolutely No Sugar Oatmeal Cookies.</a></h5>
-                        <section class="popular__meta">
-                            <span class="popular__author"><span>By</span> <a href="#0"> John Doe</a></span>
-                            <span class="popular__date"><span>on</span> <time datetime="2018-06-12">Jun 12, 2018</time></span>
-                        </section>
-                    </article>
-                    <article class="col-block popular__post">
-                        <a href="#0" class="popular__thumb">
-                            <img src="images/thumbs/small/beetle-150.jpg" alt="">
-                        </a>
-                        <h5><a href="#0">Throwback To The Good Old Days.</a></h5>
-                        <section class="popular__meta">
-                            <span class="popular__author"><span>By</span> <a href="#0">John Doe</a></span>
-                            <span class="popular__date"><span>on</span> <time datetime="2018-06-12">Jun 12, 2018</time></span>
-                        </section>
-                    </article>
-                    <article class="col-block popular__post">
-                        <a href="#0" class="popular__thumb">
-                            <img src="images/thumbs/small/salad-150.jpg" alt="">
-                        </a>
-                        <h5>Healthy Mediterranean Salad Recipes</h5>
-                        <section class="popular__meta">
-                            <span class="popular__author"><span>By</span> <a href="#0"> John Doe</a></span>
-                            <span class="popular__date"><span>on</span> <time datetime="2018-06-12">Jun 12, 2018</time></span>
-                        </section>
-                    </article>
-                </div> <!-- end popular_posts -->
-            </div> <!-- end popular -->
-
-            <div class="col-four md-six tab-full end">
-                <div class="row">
-                    <div class="col-six md-six mob-full categories">
-                        <h3>Categories</h3>
-        
-                        <ul class="linklist">
-                            <li><a href="#0">Lifestyle</a></li>
-                            <li><a href="#0">Travel</a></li>
-                            <li><a href="#0">Recipes</a></li>
-                            <li><a href="#0">Management</a></li>
-                            <li><a href="#0">Health</a></li>
-                            <li><a href="#0">Creativity</a></li>
-                        </ul>
-                    </div> <!-- end categories -->
-        
-                    <div class="col-six md-six mob-full sitelinks">
-                        <h3>Site Links</h3>
-        
-                        <ul class="linklist">
-                            <li><a href="#0">Home</a></li>
-                            <li><a href="#0">Blog</a></li>
-                            <li><a href="#0">Styles</a></li>
-                            <li><a href="#0">About</a></li>
-                            <li><a href="#0">Contact</a></li>
-                            <li><a href="#0">Privacy Policy</a></li>
-                        </ul>
-                    </div> <!-- end sitelinks -->
-                </div>
-            </div>
-        </div> <!-- end row -->
-
-    </section> <!-- end s-extra -->
-
-
-    <!-- s-footer
-    ================================================== -->
-    <footer class="s-footer">
-
-        <div class="s-footer__main">
-            <div class="row">
-                
-                <div class="col-six tab-full s-footer__about">
-                        
-                    <h4>About Wordsmith</h4>
-
-                    <p>Fugiat quas eveniet voluptatem natus. Placeat error temporibus magnam sunt optio aliquam. Ut ut occaecati placeat at. 
-                    Fuga fugit ea autem. Dignissimos voluptate repellat occaecati minima dignissimos mollitia consequatur.
-                    Sit vel delectus amet officiis repudiandae est voluptatem. Tempora maxime provident nisi et fuga et enim exercitationem ipsam. Culpa error 
-                    temporibus magnam est voluptatem.</p>
-
-                </div> <!-- end s-footer__about -->
-
-                <div class="col-six tab-full s-footer__subscribe">
-                        
-                    <h4>Our Newsletter</h4>
-
-                    <p>Sit vel delectus amet officiis repudiandae est voluptatem. Tempora maxime provident nisi et fuga et enim exercitationem ipsam. Culpa consequatur occaecati.</p>
-
-                    <div class="subscribe-form">
-                        <form id="mc-form" class="group" novalidate="true">
-
-                            <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
-                
-                            <input type="submit" name="subscribe" value="Send">
-                
-                            <label for="mc-email" class="subscribe-message"></label>
-                
-                        </form>
-                    </div>
-
-                </div> <!-- end s-footer__subscribe -->
-
-            </div>
-        </div> <!-- end s-footer__main -->
-
-        <div class="s-footer__bottom">
-            <div class="row">
-
-                <div class="col-six">
-                    <ul class="footer-social">
-                        <li>
-                            <a href="#0"><i class="fab fa-facebook"></i></a>
-                        </li>
-                        <li>
-                            <a href="#0"><i class="fab fa-twitter"></i></a>
-                        </li>
-                        <li>
-                            <a href="#0"><i class="fab fa-instagram"></i></a>
-                        </li>
-                        <li>
-                            <a href="#0"><i class="fab fa-youtube"></i></a>
-                        </li>
-                        <li>
-                            <a href="#0"><i class="fab fa-pinterest"></i></a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-six">
-                    <div class="s-footer__copyright">
-                        <span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+          <div class="col-md-12">
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-</span>
-                    </div>
-                </div>
-                
-            </div>
-        </div> <!-- end s-footer__bottom -->
-
-        <div class="go-top">
-            <a class="smoothscroll" title="Back to Top" href="#top"></a>
+          </div>
         </div>
+      </div>
+    </footer>
+    <!-- END footer -->
+    
+    <!-- loader -->
+    <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#f4b214"/></svg></div>
 
-    </footer> <!-- end s-footer -->
-
-
-    <!-- Java Script
-    ================================================== -->
     <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
+    <script src="js/jquery-migrate-3.0.0.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+
+    
     <script src="js/main.js"></script>
-
-</body>
-
+  </body>
 </html>
