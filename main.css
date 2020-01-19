@@ -21,3 +21,9 @@ body {
 .navbar-collapse {
   justify-content: flex-end;
 }
+
+ul{
+list-style:none;
+margin:0;
+padding:0;
+}
