@@ -49,3 +49,13 @@ footer, header, hgroup, menu, nav, section {
   padding-right: 30px;
   width: 960px;
 }
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+
+h1, h2, h4, h5, p {
+  margin-bottom: 22px;
+}
