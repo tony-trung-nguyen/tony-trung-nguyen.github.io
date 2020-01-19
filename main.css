@@ -1,5 +1,6 @@
 h1 {
     font-size: 500px;
+    color: blue;
 }
 
 .container {
@@ -40,10 +41,4 @@ h1 {
 .topnav a.active {
   background-color: #4CAF50;
   color: white;
-}
-
-.footer {
-  padding: 20px; /* Some padding */
-  text-align: center; /* Center text*/
-  background: #ddd; /* Grey background */
 }
