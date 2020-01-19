@@ -1,4 +1,16 @@
 h1 {
     font-size: 500px;
-    color: yellow;
+    color: blue;
+}
+
+.container {
+  padding: 80px; /* some padding */
+  text-align: center; /* center the text */
+  background: #1abc9c; /* green background */
+  color: white; /* white text color */
+}
+
+/* Increase the font size of the <h1> element */
+.container h1 {
+  font-size: 40px;
 }
