@@ -1675,7 +1675,7 @@ blockquote p {
 }
 
 .site-footer .post-entry-sidebar ul li a h4 {
-  color: #fff;
+  color: #000;
 }
 
 .site-footer a {
@@ -1688,18 +1688,25 @@ blockquote p {
 
 .site-footer h3 { 
   color: #000;
-  margin-bottom: 300px;
+  margin-bottom: 30px;
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: .2em;
 }
 
 .site-footer p {
-  color: rgba(255, 255, 255, 0.5);
+  color: #000;
+  margin-bottom: 30px;
+  font-size: 14px;
+  letter-spacing: .2em;
+}
+
+#socials {
+
 }
 
 .blog-entry-footer .post-meta {
-  color: white;
+  color: black;
   font-size: 15px;
 }
 
