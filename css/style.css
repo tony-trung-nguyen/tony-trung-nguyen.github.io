@@ -1674,35 +1674,21 @@ blockquote p {
   overflow-x: hidden;
 }
 
-/*
-.site-footer {
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  padding: 1em 0;
-  background: #000;
-}
-*/
-
 .site-footer .post-entry-sidebar ul li a h4 {
   color: #fff;
 }
 
-.site-footer .footer-social li a > span {
-  width: 30px;
-}
-
 .site-footer a {
-  color: #fff;
+  color: #000;
 }
 
 .site-footer a:hover {
   opacity: .5;
 }
 
-.site-footer h3 { /* changed font to black*/
+.site-footer h3 { 
   color: #000;
-  margin-bottom: 30px;
+  margin-bottom: 300px;
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: .2em;
