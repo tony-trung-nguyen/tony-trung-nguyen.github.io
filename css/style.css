@@ -198,7 +198,7 @@ header .navbar .dropdown-menu a {
 }
 
 .navbar > .container {
-  border-bottom: 1px solid #e6e6e6;
+  border-bottom: 100px solid #e6e6e6;
 }
 
 @media (max-width: 767.98px) {
@@ -1700,7 +1700,7 @@ blockquote p {
 
 .site-footer h3 {
   color: #fff;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: .2em;
