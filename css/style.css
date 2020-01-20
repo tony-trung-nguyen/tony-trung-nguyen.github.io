@@ -1674,6 +1674,7 @@ blockquote p {
   overflow-x: hidden;
 }
 
+/*
 .site-footer {
   background-size: cover;
   background-position: center center;
@@ -1681,6 +1682,7 @@ blockquote p {
   padding: 1em 0;
   background: #000;
 }
+*/
 
 .site-footer .post-entry-sidebar ul li a h4 {
   color: #fff;
@@ -1698,8 +1700,8 @@ blockquote p {
   opacity: .5;
 }
 
-.site-footer h3 {
-  color: #fff;
+.site-footer h3 { /* changed font to black*/
+  color: #000;
   margin-bottom: 30px;
   font-size: 14px;
   text-transform: uppercase;
